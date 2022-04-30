@@ -1,0 +1,34 @@
+Script used to fuzz website recursively until all paths ended.
+
+Find secrets based on a dictionnary of items defines to detect based on his needs (like on CTFs, Pentest Scans...)
+
+
+
+Application Usage:
+-----------------
+# python app_fuzz_discovery.py
+usage: app_fuzz_discovery.py [-h] -u URL [-d DICTIONNARY] [-m MATCH] [-o OUTPUT]
+app_fuzz_discovery.py: error: the following arguments are required: -u/--url
+
+
+python app_fuzz_discovery.py --url http://10.0.2.6/ --match 200,301,500 --output cms.txt --dictionnary common.txt
+
+python app_fuzz_discovery.py --url http://10.0.2.6/ --match 200,301,500 --output cms.txt
+
+python app_fuzz_discovery.py --url http://10.0.2.6/ --match 200,301,500 
+
+python app_fuzz_discovery.py --url http://10.0.2.6/ 
+
+You can basically run the command with any parameter you want
+
+
+
+
+For the tool to work will, you should provice a HQ wordlist.
+You can control the item to look for in the db.txt file which is used to find all elements in the fuzzed directories and found files.
+Also, we provide a false_positives.txt that is used to ignore all elements presents on it.
+
+TODO:
+- add regex to find detect AWS keys, SSH Keys....
+- Send requests through a proxy to bypass limitation of number of requets (Work done, need some testing because you need to pay to get valid proxies, otherwise all free ones are mostly dead and will not work in real life).
+- ...

@@ -1,0 +1,317 @@
+└─$ time python app_fuzz_discovery.py --url http://10.0.2.15:9001/ --match 200,301,500 --output cms.txt
+ ####    ##   ##  ## ###   ## ###   ## ###            ## ###      #      ####    ######   
+######   ##   ##  ## ####  ## ###   ## ####           ## ###     ##     ######   ######   
+##  ##   ##   ##  ##   ##  ##       ##   ##           ##          ##    ##  ##            
+ ##      ##   ##  ## ####  ## ###   ## ####           ## ###      ##     ##        ##     
+   ##    ##   ##  ## ###   ## ###   ## ###            ## ###    ## ##      ##      ##     
+##  ##   ##   ##  ##       ##       ##    #           ##        ## ##   ##  ##     ##     
+######   ### ###  ##       ## ###   ##   ##           ##       ## ####  ######     ##     
+ ####     ## ##   ##       ## ###   ##   ##           ##       ##   ##   ####      ##     
+## ###   ##   ##  #######  #######  ##    ##   ##    ###             ######     # #      # #    ##       
+## ###   ##   ##  ######   ######   ##    ###  ##   ####             ######    ## ##    ## ##   ##       
+##       ##   ##                    ##     ### ##  ###                        ### ###  ### ###  ##       
+## ###   ##   ##     ##       ##    ##    # #####  ##  ###             ##     ##   ##  ##   ##  ##       
+## ###   ##   ##    ##       ##     ##    ## ####  ##  ###             ##     ##   ##  ##   ##  ##       
+##       ##   ##                    ##    ##  ###   #                  ##     ### ###  ### ###  ##       
+##       ### ###   ######   ######  ##    ##   ##   #####              ##      ## ##    ## ##   ## ###   
+##        ## ##   #######  #######  ##    ##    #    ###               ##       # #      # #    ## ###   
+
+Started at:  09/04/2022 06:42:42 
+http://10.0.2.15:9001/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/
+using status: 200,301,500
+using default dictionnary: /usr/share/wordlists/dirb/common.txt
+	[+] Code: 200 => Interesting File found: 	http://10.0.2.15:9001/index.php
+	[+] Code: 200 => Interesting File found: 	http://10.0.2.15:9001/web.config
+	[+] Code: 200 => Interesting File found: 	http://10.0.2.15:9001/xmlrpc.php
+
+
+http://10.0.2.15:9001/includes/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/includes/
+
+
+http://10.0.2.15:9001/includes/database/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/includes/database/
+
+
+http://10.0.2.15:9001/includes/database/mysql/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/includes/database/mysql/
+
+http://10.0.2.15:9001/includes/database/pgsql/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/includes/database/pgsql/
+
+http://10.0.2.15:9001/misc/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/misc/
+ 	[+] Code: 200 => Interesting File found: 	http://10.0.2.15:9001/misc/favicon.ico
+
+
+http://10.0.2.15:9001/misc/ui/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/misc/ui/
+
+
+http://10.0.2.15:9001/misc/ui/images/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/misc/ui/images/
+
+http://10.0.2.15:9001/modules/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/
+
+
+http://10.0.2.15:9001/modules/aggregator/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/aggregator/
+
+
+http://10.0.2.15:9001/modules/aggregator/tests/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/aggregator/tests/
+
+http://10.0.2.15:9001/modules/block/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/block/
+
+
+http://10.0.2.15:9001/modules/block/tests/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/block/tests/
+
+
+http://10.0.2.15:9001/modules/block/tests/themes/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/block/tests/themes/
+
+http://10.0.2.15:9001/modules/blog/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/blog/
+
+http://10.0.2.15:9001/modules/book/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/book/
+
+http://10.0.2.15:9001/modules/comment/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/comment/
+
+http://10.0.2.15:9001/modules/contact/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/contact/
+
+http://10.0.2.15:9001/modules/dashboard/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/dashboard/
+
+http://10.0.2.15:9001/modules/field/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/field/
+
+
+http://10.0.2.15:9001/modules/field/modules/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/field/modules/
+
+
+http://10.0.2.15:9001/modules/field/modules/list/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/field/modules/list/
+
+
+http://10.0.2.15:9001/modules/field/modules/list/tests/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/field/modules/list/tests/
+
+http://10.0.2.15:9001/modules/field/modules/number/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/field/modules/number/
+
+http://10.0.2.15:9001/modules/field/modules/options/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/field/modules/options/
+
+http://10.0.2.15:9001/modules/field/modules/text/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/field/modules/text/
+
+http://10.0.2.15:9001/modules/field/tests/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/field/tests/
+
+http://10.0.2.15:9001/modules/field/theme/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/field/theme/
+
+http://10.0.2.15:9001/modules/file/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/file/
+
+
+http://10.0.2.15:9001/modules/file/icons/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/file/icons/
+
+http://10.0.2.15:9001/modules/file/tests/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/file/tests/
+
+http://10.0.2.15:9001/modules/filter/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/filter/
+
+
+http://10.0.2.15:9001/modules/filter/tests/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/filter/tests/
+
+http://10.0.2.15:9001/modules/forum/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/forum/
+
+http://10.0.2.15:9001/modules/help/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/help/
+
+http://10.0.2.15:9001/modules/image/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/image/
+
+
+http://10.0.2.15:9001/modules/image/tests/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/image/tests/
+
+http://10.0.2.15:9001/modules/locale/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/locale/
+
+
+http://10.0.2.15:9001/modules/locale/tests/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/locale/tests/
+
+
+http://10.0.2.15:9001/modules/locale/tests/translations/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/locale/tests/translations/
+
+http://10.0.2.15:9001/modules/menu/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/menu/
+
+http://10.0.2.15:9001/modules/node/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/node/
+
+
+http://10.0.2.15:9001/modules/node/tests/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/node/tests/
+
+http://10.0.2.15:9001/modules/path/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/path/
+
+http://10.0.2.15:9001/modules/php/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/php/
+
+http://10.0.2.15:9001/modules/poll/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/poll/
+
+http://10.0.2.15:9001/modules/profile/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/profile/
+
+http://10.0.2.15:9001/modules/rdf/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/rdf/
+
+
+http://10.0.2.15:9001/modules/rdf/tests/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/rdf/tests/
+
+http://10.0.2.15:9001/modules/search/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/search/
+
+
+http://10.0.2.15:9001/modules/search/tests/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/search/tests/
+
+http://10.0.2.15:9001/modules/statistics/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/statistics/
+
+http://10.0.2.15:9001/modules/system/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/system/
+
+
+http://10.0.2.15:9001/modules/system/tests/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/system/tests/
+
+http://10.0.2.15:9001/modules/taxonomy/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/taxonomy/
+
+http://10.0.2.15:9001/modules/toolbar/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/toolbar/
+
+http://10.0.2.15:9001/modules/tracker/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/tracker/
+
+http://10.0.2.15:9001/modules/update/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/update/
+
+
+http://10.0.2.15:9001/modules/update/tests/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/update/tests/
+
+
+http://10.0.2.15:9001/modules/update/tests/themes/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/update/tests/themes/
+
+http://10.0.2.15:9001/modules/user/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/user/
+
+
+http://10.0.2.15:9001/modules/user/tests/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/modules/user/tests/
+
+http://10.0.2.15:9001/profiles/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/profiles/
+
+
+http://10.0.2.15:9001/profiles/standard/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/profiles/standard/
+
+
+http://10.0.2.15:9001/profiles/standard/translations/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/profiles/standard/translations/
+
+http://10.0.2.15:9001/profiles/testing/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/profiles/testing/
+
+
+http://10.0.2.15:9001/profiles/testing/modules/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/profiles/testing/modules/
+
+http://10.0.2.15:9001/scripts/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/scripts/
+
+http://10.0.2.15:9001/sites/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/sites/
+
+
+http://10.0.2.15:9001/sites/all/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/sites/all/
+
+
+http://10.0.2.15:9001/sites/all/libraries/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/sites/all/libraries/
+
+http://10.0.2.15:9001/sites/all/modules/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/sites/all/modules/
+
+http://10.0.2.15:9001/sites/all/themes/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/sites/all/themes/
+
+http://10.0.2.15:9001/sites/default/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/sites/default/
+
+
+http://10.0.2.15:9001/sites/default/files/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/sites/default/files/
+
+
+http://10.0.2.15:9001/sites/default/files/pictures/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/sites/default/files/pictures/
+
+http://10.0.2.15:9001/sites/default/files/styles/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/sites/default/files/styles/
+
+http://10.0.2.15:9001/themes/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/themes/
+
+
+http://10.0.2.15:9001/themes/engines/  is a valid url
+Currently fuzzing =>  http://10.0.2.15:9001/themes/engines/
+
+Fuzzing phase ended
+Scanning accessible files for juicy informations
+[+] Found: @import url("http://10.0.2.15:9001/modules/user/user.css?qtvfni"); 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"bartik","theme_token":"CUaI1Mubil5FI6SVV98xy_q7TeraOtnU4_GzwFQNT3k","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"themes\/bartik\/css\/colors.css":1,"themes\/bartik\/css\/print.css":1,"themes\/bartik\/css\/ie.css":1,"themes\/bartik\/css\/ie6.css":1}},"urlIsAjaxTrusted":{"\/?q=node\u0026destination=node":true}}); 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <div id="block-user-login" class="block block-user"> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <form action="/?q=node&amp;destination=node" method="post" id="user-login-form" accept-charset="UTF-8"><div><div class="form-item form-type-textfield form-item-name"> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <div class="item-list"><ul><li class="first"><a href="/?q=user/register" title="Create a new user account.">Create new account</a></li> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <li class="last"><a href="/?q=user/password" title="Request new password via e-mail.">Request new password</a></li> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <input type="hidden" name="form_id" value="user_login_block" /> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <span property="dc:date dc:created" content="2021-05-29T13:42:06-04:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/?q=user/1" typeof="sioc:UserAccount" property="foaf:name" datatype="">admin_cms_drupal</span> on Sat, 05/29/2021 - 13:42</span>    </div> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <li class="comment_forbidden last"><span><a href="/?q=user/login&amp;destination=node/4%23comment-form">Log in</a> or <a href="/?q=user/register&amp;destination=node/4%23comment-form">register</a> to post comments</span></li> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <span property="dc:date dc:created" content="2021-05-29T13:41:51-04:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/?q=user/1" typeof="sioc:UserAccount" property="foaf:name" datatype="">admin_cms_drupal</span> on Sat, 05/29/2021 - 13:41</span>    </div> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <li class="comment_forbidden last"><span><a href="/?q=user/login&amp;destination=node/3%23comment-form">Log in</a> or <a href="/?q=user/register&amp;destination=node/3%23comment-form">register</a> to post comments</span></li> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <span property="dc:date dc:created" content="2021-05-29T13:41:23-04:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/?q=user/1" typeof="sioc:UserAccount" property="foaf:name" datatype="">admin_cms_drupal</span> on Sat, 05/29/2021 - 13:41</span>    </div> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <li class="comment_forbidden last"><span><a href="/?q=user/login&amp;destination=node/2%23comment-form">Log in</a> or <a href="/?q=user/register&amp;destination=node/2%23comment-form">register</a> to post comments</span></li> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <span property="dc:date dc:created" content="2021-05-29T13:40:46-04:00" datatype="xsd:dateTime" rel="sioc:has_creator">Submitted by <span class="username" xml:lang="" about="/?q=user/1" typeof="sioc:UserAccount" property="foaf:name" datatype="">admin_cms_drupal</span> on Sat, 05/29/2021 - 13:40</span>    </div> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <li class="comment_forbidden last"><span><a href="/?q=user/login&amp;destination=node/1%23comment-form">Log in</a> or <a href="/?q=user/register&amp;destination=node/1%23comment-form">register</a> to post comments</span></li> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <div class="form-item form-type-password form-item-pass"> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <input type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" /> 	[*] Link: http://10.0.2.15:9001/index.php
+[+] Found: <li class="last"><a href="/?q=user/password" title="Request new password via e-mail.">Request new password</a></li> 	[*] Link: http://10.0.2.15:9001/index.php
+data saved into:  cms.txt
+Ended at:  09/04/2022 07:08:58 
+Time Elapsed ---< 1575.6985988616943 seconds >---

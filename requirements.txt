@@ -1,0 +1,9 @@
+aiohttp
+asyncio
+time
+argparse
+requests
+validator_collection
+os
+tqdm
+alive_progress

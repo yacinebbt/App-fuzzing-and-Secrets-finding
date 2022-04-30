@@ -1,0 +1,7 @@
+password
+passwd
+user
+usr
+FLAG
+Flag
+Password

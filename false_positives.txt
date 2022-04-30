@@ -1,0 +1,5 @@
+/usr/
+/usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full
+If you are a normal user of this web site and don't know what this page
+<b>Calling <tt>/usr/bin/apache2</tt> directly will not work</b> with the
+<a href="http://httpd.apache.org/docs/2.4/mod/mod_userdir.html" rel="nofollow">public_html</a>

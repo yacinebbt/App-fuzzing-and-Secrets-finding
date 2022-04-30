@@ -1,0 +1,5 @@
+200 --> http://10.0.2.6/
+200 --> http://10.0.2.6/index.html
+301 --> http://10.0.2.6/passwords
+200 --> http://10.0.2.6/robots.txt
+200 --> http://10.0.2.6/passwords/
